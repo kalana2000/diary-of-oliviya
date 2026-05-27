@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary of Oliviya | Bestselling Luxury Memory Collection by Kalana Muthukuda</title>
+    <meta name="description" content="Discover the national bestseller 'Diary of Oliviya' (ඩයරි ඔෆ් ඔලීවියා) by Kalana Muthukuda. Published by Rasakatha Publication. A luxury memory collection that has captured over 15,000+ hearts. Order your copy today.">
+    
+    <!-- Google Fonts for Luxury Brand Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600;700;900&family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Premium Custom Cursor -->
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+    <!-- Background Parallax Canvas -->
+    <div class="bg-parallax-wrapper">
+        <div class="bg-image-layer" style="background-image: url('https://i.ibb.co/Qj7tHT12/Chat-GPT-Image-May-27-2026-10-21-03-AM.png');"></div>
+        <div class="bg-overlay-layer"></div>
+    </div>
+
+    <!-- Ambient Audio Controller -->
+    <button class="audio-toggle-btn" id="audio-toggle" aria-label="Toggle Sound Atmosphere">
+        <div class="audio-waves">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <span class="audio-text">IMMERSIVE MUSIC OFF</span>
+    </button>
+
+    <!-- Luxury Floating Navigation Bar -->
+    <header class="luxury-header" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="brand-sub">THE MEMORY COLLECTION</span>
+                <span class="brand-main">DIARY OF OLIVIYA</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-menu">
+                <a href="#hero" class="nav-item active">Welcome</a>
+                <a href="#concept" class="nav-item">The Concept</a>
+                <a href="#characters" class="nav-item">Characters</a>
+                <a href="#milestone" class="nav-item">Milestone</a>
+                <a href="#purchase" class="nav-item nav-purchase-highlight">Order Now</a>
+            </nav>
+
+            <div class="nav-right">
+                <a href="https://rasakatha.lk/books/diary-of-oliviya-%E0%B6%A9%E0%B6%BA%E0%B6%BB%E0%B7%92-%E0%B6%94%E0%B7%86%E0%B7%8A-%E0%B6%94%E0%B6%BD%E0%B7%93%E0%B7%80%E0%B7%92%E0%B6%BA%E0%B7%8F-pre-order/" target="_blank" class="luxury-btn nav-cta-btn">
+                    <span>BUY NOW</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="bestseller-ribbon animate-fade-in">
+                    <i class="fa-solid fa-crown gold-sparkle"></i>
+                    <span>NATIONAL BESTSELLER</span>
+                </div>
+                
+                <h1 class="hero-title animate-fade-in-up">
+                    <span class="title-pre">A Masterpiece by Kalana Muthukuda</span>
+                    <span class="title-main">Diary of <span class="gold-gradient-text">Oliviya</span></span>
+                    <span class="title-sinhala">ඩයරි ඔෆ් ඔලීවියා</span>
+                </h1>
+                
+                <p class="hero-tagline animate-fade-in-up">
+                    An elegant, bestselling collection of raw, passionate, and beautifully scattered memories. Published by Rasakatha Publication, it tells a poignant story of two souls holding onto what time tries to erase.
+                </p>
+
+                <div class="hero-stats animate-fade-in-up">
+                    <div class="stat-badge">
+                        <span class="stat-num" data-val="15000">0</span>
+                        <span class="stat-lbl">Readers Captivated</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-badge">
+                        <span class="stat-num" data-val="100">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-lbl">Pure Emotion</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons animate-fade-in-up">
+                    <a href="https://rasakatha.lk/books/diary-of-oliviya-%E0%B6%A9%E0%B6%BA%E0%B6%BB%E0%B7%92-%E0%B6%94%E0%B7%86%E0%B7%8A-%E0%B6%94%E0%B6%BD%E0%B7%93%E0%B7%80%E0%B7%92%E0%B6%BA%E0%B7%8F-pre-order/" target="_blank" class="luxury-btn primary-gold">
+                        <span>OWN THE DIARY</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#concept" class="luxury-btn secondary-outline">
+                        <span>EXPLORE THE STORY</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floating 3D Book Mockup -->
+            <div class="hero-visual animate-scale-in">
+                <div class="mockup-3d-wrapper" id="book-container">
+                    <div class="mockup-shadow"></div>
+                    <div class="book-3d">
+                        <img src="https://i.ibb.co/6J42T3yc/Whats-App-Image-2025-12-08-at-16-55-41.jpg" alt="Diary of Oliviya Book Mockup" class="book-mockup-img">
+                        <div class="book-spine"></div>
+                        <div class="book-gold-edges"></div>
+                    </div>
+                </div>
+                <div class="exclusive-badge">
+                    <span class="badge-ring"></span>
+                    <div class="badge-inner">
+                        <span class="badge-text">BESTSELLER</span>
+                        <span class="badge-sub">15,000+ COPIES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Elegant Bottom Scroll Arrow -->
+        <a href="#concept" class="scroll-down-indicator" aria-label="Scroll Down">
+            <span class="scroll-mouse">
+                <span class="scroll-wheel"></span>
+            </span>
+            <span class="scroll-label">Begin the Journey</span>
+        </a>
+    </section>
+
+    <!-- The Concept Section -->
+    <section class="concept-section" id="concept">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">THE PHENOMENON</span>
+                <h2 class="section-title">A Scattered Memory Collection</h2>
+                <div class="gold-divider"><span></span></div>
+            </div>
+
+            <div class="concept-grid">
+                <div class="concept-text-card">
+                    <p class="journal-quote">
+                        "They say memories fade like ink on aged paper, but ours are carved deep into the stars."
+                    </p>
+                    <p class="concept-para">
+                        <strong>"Diary of Oliviya"</strong>, authored by **Kalana Muthukuda** and published by **Rasakatha Publication**, is not just a book—it is an exquisite journey into the secret chambers of the heart. Beautifully curated, it invites readers to piece together a profound puzzle of love, unspoken promises, and bittersweet goodbyes.
+                    </p>
+                    <p class="concept-para">
+                        Through lyrical narration and artistic depth, this diary captures the fleeting glances, raw tears, and warm sunsets that define our shared human fragility. It is a stunning keepsake designed for those who appreciate the aesthetic romance of storytelling.
+                    </p>
+                    
+                    <div class="concept-features">
+                        <div class="feat-item">
+                            <i class="fa-solid fa-leaf gold-icon"></i>
+                            <span>Premium Foil Accents</span>
+                        </div>
+                        <div class="feat-item">
+                            <i class="fa-solid fa-feather gold-icon"></i>
+                            <span>Aesthetic Calligraphy</span>
+                        </div>
+                        <div class="feat-item">
+                            <i class="fa-solid fa-heart gold-icon"></i>
+                            <span>Raw Human Stories</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Open Diary Interface -->
+                <div class="concept-visual">
+                    <div class="diary-container">
+                        <div class="diary-spine"></div>
+                        <div class="diary-page left-page">
+                            <div class="page-content">
+                                <span class="diary-date">17th October, 11:11 PM</span>
+                                <p class="cursive-writing">
+                                    I saw Semiyo standing by the ocean today. He didn't see me, or maybe he did. The wind was carrying his laughter, but his eyes... they looked like they were searching for a lighthouse that had long ceased to burn.
+                                </p>
+                                <span class="page-number">07</span>
+                            </div>
+                        </div>
+                        <div class="diary-page right-page">
+                            <div class="page-content">
+                                <span class="diary-date">24th November, 02:40 AM</span>
+                                <p class="cursive-writing">
+                                    Oliviya left her bookmark on page 142. The scent of vanilla and rain still lingers on it. I wonder if she knows that every word written in this journal is just another way of spelling her name...
+                                </p>
+                                <div class="sketch-heart"></div>
+                                <span class="page-number">08</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Section -->
+    <section class="characters-section" id="characters">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">THE SOULS BEHIND THE WORDS</span>
+                <h2 class="section-title">Semiyo & Oliviya</h2>
+                <div class="gold-divider"><span></span></div>
+                <p class="section-desc text-center">
+                    Explore the dual perspectives of our main characters. Hover over their portraits to unlock their personal journals.
+                </p>
+            </div>
+
+            <div class="characters-grid">
+                <!-- Semiyo (Boy) -->
+                <div class="character-card boy-card" id="semiyo-card">
+                    <div class="char-image-container">
+                        <img src="https://i.ibb.co/j9774NbX/6f720569-4d48-48f9-953c-66148496e765.jpg" alt="Semiyo" class="char-img">
+                        <div class="char-gold-frame"></div>
+                        <div class="char-overlay"></div>
+                        <span class="char-badge">THE ARCHITECT OF SILENCE</span>
+                    </div>
+                    <div class="char-info">
+                        <h3 class="char-name">Semiyo</h3>
+                        <p class="char-subtitle">A keeper of silent promises</p>
+                        <p class="char-bio">
+                            Semiyo expresses his heart not in grand declarations, but through subtle strokes of his pen and quiet, unwavering presence. Left behind in the quiet wake of Oliviya's departure, his entries reflect a soul trying to preserve a love that walked away, seeking solace in the ocean waves.
+                        </p>
+                        <div class="char-quote">
+                            <i class="fa-solid fa-quote-left gold-icon"></i>
+                            <span>"If love is a silent storm, then I am content to be drowned in your rain."</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oliviya (Girl) -->
+                <div class="character-card girl-card" id="oliviya-card">
+                    <div class="char-image-container">
+                        <img src="https://i.ibb.co/svyTkfdX/0d124b8d-7cb8-4549-96bb-2f6e31ffe229.jpg" alt="Oliviya" class="char-img">
+                        <div class="char-gold-frame"></div>
+                        <div class="char-overlay"></div>
+                        <span class="char-badge">THE KEEPER OF MEMORIES</span>
+                    </div>
+                    <div class="char-info">
+                        <h3 class="char-name">Oliviya</h3>
+                        <p class="char-subtitle">A heart woven out of poetry</p>
+                        <p class="char-bio">
+                            Oliviya is a vibrant collage of emotions, painting the canvas of her life with words, songs, and wild blossoms. As the one who chose to walk away, her diary entries are beautiful, vulnerable chronicles of why she had to leave, the ache of departure, and the memories she still holds close.
+                        </p>
+                        <div class="char-quote">
+                            <i class="fa-solid fa-quote-left gold-icon"></i>
+                            <span>"My diary is the only place where you and I still walk under the golden sun, untroubled by tomorrow."</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestone & Social Proof Section -->
+    <section class="milestone-section" id="milestone">
+        <div class="section-container">
+            <div class="milestone-grid">
+                <div class="milestone-visual">
+                    <div class="stacked-mockups">
+                        <img src="https://i.ibb.co/6J42T3yc/Whats-App-Image-2025-12-08-at-16-55-41.jpg" alt="Diary of Oliviya Front Cover" class="stack-img main-stack-img">
+                        <div class="stack-glow"></div>
+                    </div>
+                </div>
+                <div class="milestone-text">
+                    <span class="section-subtitle">A SRI LANKAN BESTSELLER</span>
+                    <h2 class="milestone-title">Over <span class="gold-gradient-text" id="counter-trigger">15,000+</span> Copies Sold in Sri Lanka</h2>
+                    <p class="milestone-desc">
+                        A literary marvel published by Rasakatha Publication that topped bestseller charts across Sri Lanka within weeks of release. Written by Kalana Muthukuda, "Diary of Oliviya" has resonated deeply with readers, capturing over 15,000+ hearts.
+                    </p>
+                    
+                    <div class="milestone-stats-box">
+                        <div class="m-stat">
+                            <h4 class="m-stat-number"><span class="m-counter" data-val="15000">0</span>+</h4>
+                            <p class="m-stat-label">Copies Sold</p>
+                        </div>
+                        <div class="m-stat">
+                            <h4 class="m-stat-number"><span class="m-counter" data-val="48">0</span>/5</h4>
+                            <p class="m-stat-label">Average Reader Rating</p>
+                        </div>
+                        <div class="m-stat">
+                            <h4 class="m-stat-number"><span class="m-counter" data-val="50">0</span>k+</h4>
+                            <p class="m-stat-label">Social Impressions</p>
+                        </div>
+                    </div>
+
+                    <!-- Reviews Carousel / Slider -->
+                    <div class="reviews-slider-wrapper">
+                        <div class="review-track">
+                            <div class="review-slide active">
+                                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                <p class="review-text">"It felt like reading my own soul's secret diary. The typography and language are heartbreakingly elegant. A sensory masterpiece!"</p>
+                                <p class="review-author">— Anupama D. (Verified Reader)</p>
+                            </div>
+                            <div class="review-slide">
+                                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                <p class="review-text">"I couldn't put it down. Semiyo and Oliviya's voices will haunt me in the most beautiful way possible. Simply spectacular."</p>
+                                <p class="review-author">— Methmi W. (Literary Blogger)</p>
+                            </div>
+                            <div class="review-slide">
+                                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                                <p class="review-text">"Over 15,000+ people cannot be wrong. This is the gold standard for romantic memory compilations. A treasure in my library."</p>
+                                <p class="review-author">— Ranasinghe K. (Avid Reader)</p>
+                            </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button class="slide-ctrl prev-ctrl" aria-label="Previous Review"><i class="fa-solid fa-chevron-left"></i></button>
+                            <div class="slide-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            <button class="slide-ctrl next-ctrl" aria-label="Next Review"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Purchase CTA Section -->
+    <section class="purchase-section" id="purchase">
+        <div class="section-container">
+            <div class="purchase-card-wrapper">
+                <div class="purchase-card">
+                    <div class="purchase-left">
+                        <span class="gold-badge-small">OFFICIAL BESTSELLER</span>
+                        <h2 class="purchase-title">Claim Your Piece of the Memory</h2>
+                        <div class="pricing-container">
+                            <span class="price-original">Rs. 850</span>
+                            <span class="price-discount">Rs. 680</span>
+                            <span class="savings-tag">Save 20%</span>
+                        </div>
+
+                        <a href="https://rasakatha.lk/books/diary-of-oliviya-%E0%B6%A9%E0%B6%BA%E0%B6%BB%E0%B7%92-%E0%B6%94%E0%B7%86%E0%B7%8A-%E0%B6%94%E0%B6%BD%E0%B7%93%E0%B7%80%E0%B7%92%E0%B6%BA%E0%B7%8F-pre-order/" target="_blank" class="luxury-btn primary-gold purchase-cta-btn">
+                            <span>BUY NOW FROM RASAKATHA</span>
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <div class="btn-glow"></div>
+                        </a>
+                        
+                        <p class="secure-checkout-notice">
+                            <i class="fa-solid fa-shield-halved"></i> Secured Transaction via Rasakatha Bookstore
+                        </p>
+                    </div>
+
+                    <div class="purchase-right">
+                        <div class="floating-mockup-wrapper">
+                            <img src="https://i.ibb.co/6J42T3yc/Whats-App-Image-2025-12-08-at-16-55-41.jpg" alt="Diary of Oliviya Bestseller book" class="purchase-book-mockup">
+                            <div class="luxury-seal">
+                                <svg viewBox="0 0 100 100" class="rotating-seal">
+                                    <path id="seal-text-path" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none"/>
+                                    <text font-family="'Cinzel', serif" font-size="7.5" fill="#D4AF37" letter-spacing="2.5">
+                                        <textPath href="#seal-text-path" startOffset="0%">• DIARY OF OLIVIYA • OFFICIAL RELEASE • SPECIAL EDITION </textPath>
+                                    </text>
+                                </svg>
+                                <div class="seal-icon">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Footer -->
+    <footer class="luxury-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="f-brand-sub">THE LITERARY EXPERIENCE</span>
+                    <span class="f-brand-main">DIARY OF OLIVIYA</span>
+                    <p class="f-brand-tag">A collection of scattered memories by Kalana Muthukuda. Published by Rasakatha Publication. Over 15,000+ stories united in one book.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h5 class="f-title">Quick Navigation</h5>
+                    <a href="#hero" class="f-link">Welcome</a>
+                    <a href="#concept" class="f-link">The Concept</a>
+                    <a href="#characters" class="f-link">Semiyo & Oliviya</a>
+                    <a href="#milestone" class="f-link">Bestseller Milestone</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h5 class="f-title">Vendor & Publishing</h5>
+                    <p class="f-text"><i class="fa-solid fa-store gold-icon"></i> Partnered with <a href="https://rasakatha.lk/books/diary-of-oliviya-%E0%B6%A9%E0%B6%BA%E0%B6%BB%E0%B7%92-%E0%B6%94%E0%B7%86%E0%B7%8A-%E0%B6%94%E0%B6%BD%E0%B7%93%E0%B7%80%E0%B7%92%E0%B6%BA%E0%B7%8F-pre-order/" target="_blank" class="f-inline-link">Rasakatha Bookstore</a></p>
+                    <p class="f-text"><i class="fa-regular fa-envelope gold-icon"></i> contact@rasakatha.lk</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Diary of Oliviya. Written by Kalana Muthukuda. All Rights Reserved. Designed in high-fidelity luxury.</p>
+                <div class="footer-badges">
+                    <span><i class="fa-solid fa-feather-pointed"></i> 1st Edition</span>
+                    <span><i class="fa-solid fa-star"></i> Bestseller</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
